@@ -1,0 +1,145 @@
+body {
+  font-family: "Noto Sans HK", sans-serif;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* app container class */
+.app-container {
+  max-width: 40%;
+  min-height: 100vh;
+  margin: auto;
+  background-color: rgb(24, 15, 31);
+  padding-bottom: 25px;
+}
+
+.tittle {
+  text-align: center;
+  padding: 10px;
+}
+
+.bar-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.balance-bar {
+  text-align: center;
+  border-radius: 5px;
+  padding: 8px;
+  height: 10vh;
+  width: 82%;
+  background-color: violet;
+  margin: auto;
+  background: #ec13b2;
+  box-shadow: 5px 5px 10px #c91097, -5px -5px 10px #ff16cd;
+}
+
+.status-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+
+.income-bar {
+  text-align: center;
+  border-radius: 5px;
+  width: 40%;
+  height: 10vh;
+
+  background: linear-gradient(145deg, #4be213, #3fbe10);
+  box-shadow: 5px 5px 10px #3cb30f, -5px -5px 10px #51f315;
+}
+.expense-bar {
+  text-align: center;
+  border-radius: 5px;
+  height: 10vh;
+  width: 40%;
+  background: #ec1313;
+  box-shadow: 5px 5px 10px #c91010, -5px -5px 10px #ff1616;
+}
+
+/* transactions wrapper  */
+.transactions-wrapper {
+  margin-top: 20px;
+}
+
+.transactions-tittle {
+  border-bottom: 2px solid orange;
+  text-align: center;
+}
+
+.form {
+  margin-top: 10px;
+}
+
+input {
+  width: 100%;
+  line-height: 28px;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(250, 246, 255);
+  background-color: rgb(0, 0, 0);
+  /* border: 1px solid orange; */
+}
+
+.submit-btn {
+  width: 100%;
+  margin: 15px 0;
+  line-height: 24px;
+  font-weight: bold;
+  border: none;
+  background: #1218bf;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.history-wrapper {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  border-bottom: 2px solid yellow;
+  text-align: center;
+}
+
+/* expense list wrapper */
+.income-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  background: linear-gradient(145deg, #4be213, #3fbe10);
+  box-shadow: 5px 5px 10px #3cb30f, -5px -5px 10px #51f315;
+  margin-top: 24px;
+}
+.expense-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  margin-top: 24px;
+  background: #ec1313;
+  box-shadow: 5px 5px 10px #c91010, -5px -5px 10px #ff1616;
+}
+
